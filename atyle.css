@@ -1,0 +1,33 @@
+body{
+ background-color: black;
+ font-family: bai janjuree;
+}
+
+#container{
+ display: flex;
+}
+
+.cartao{
+    margin: 1rem 1rem;
+    background-color: blueviolet;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+        
+}
+
+footer{
+    background-color: aliceblue;
+    color: aqua;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+   text-align: center;
+   font-size: 0.75rem;
+   margin-top: 0.5rem;
+
+}
