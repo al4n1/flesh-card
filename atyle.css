@@ -1,49 +1,53 @@
-body{
- background-color: black;
- font-family: bai janjuree;
-}
-
-#container{
- display: flex;
-}
-
-.cartao{
-    margin: 1rem 1rem;
-    background-color: blueviolet;
-    height: 20rem;
-    flex-grow: 1;
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+  }
+  
+  body{
+    background: url(img/bg-desktop.webp);
+     font-family:bai jamjuree ;
+  }
+  
+  #container{
+   display: flex;
+  }
+  
+  .cartao{ 
+     margin:1rem 1rem ;
+     background-color: rgba(0, 238, 255, 0.541);
+     height: 20rem;
+     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-}
-
-.cartao__conteudo{
+     
+  }
+  .cartao__conteudo h3 {
+  text-align: center;
+  background-color: aquamarine;
+  height: 100%;
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 2rem;
+   }
+  
+  footer p {
     text-align: center;
-    background-color: blueviolet;
-    height: 100%;
-}
-
-footer{
-    background-color: aliceblue;
-    color: aqua;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-}
-
-footer p {
-   text-align: center;
-   font-size: 0.75rem;
-   margin-top: 0.5rem;
-}
-
-.cartao__conteudo h3{
-    background-color: brown;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+   }    
+  
+   .cartao__conteudo h3{
+     color:var(--text-color);
     text-align: left;
-    padding: 0.5rem;
-    position: absolute;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
-    font-size: 1vw;
-    
-}
-
+     padding: 0.5rem;
+     position: absolute;
+     margin: 0.6rem;
+     border-radius: 0.6rem;
+     font-size: 1vw;
+    }
