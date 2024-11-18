@@ -20,3 +20,8 @@ criaCartao {
     'Uma função é um bloco de código que executa alguma tarefa'
  }
        
+criaCartao{
+     'geografia'
+    'qual a capital de roraima?'
+    'a capital de roraima é Boa Vista'
+ }
