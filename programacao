@@ -1,4 +1,4 @@
-    'Programação'
+  'Programação'{
     'O que é JavaScript?'
     'O JavaScript é uma linguagem de programação'
      }
@@ -22,5 +22,17 @@
       criaCartao{
         'Geografia'
     'Qual a capital do Paraná?'
-    'A capital da França é Curitiba'
+    'A capital do parana é Curitiba'
+    }
+
+     criaCartao{
+        'Geografia'
+    'Qual a capital da china?'
+    'A capital da china é pequim'
+    }
+
+     criaCartao{
+        'Geografia'
+    'Qual é a cidade com mais população?'
+    'toquio'
     }
